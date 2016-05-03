@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="VolleyTest"
+  id="myeclipse.1461573474019"
+  context-root="/VolleyTest"
+  j2ee-spec="6.0"
+  archive="VolleyTest.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
