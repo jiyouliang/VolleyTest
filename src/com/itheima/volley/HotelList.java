@@ -46,8 +46,6 @@ public class HotelList extends HttpServlet {
 		String parameter = request.getParameter("pagenum");
 		int pagenum = Integer.parseInt(parameter);
 		
-		
-		
 		response.setCharacterEncoding("UTF-8");
 		
 		System.out.println("ip=" + hostAddress);
