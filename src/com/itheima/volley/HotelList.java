@@ -72,11 +72,12 @@ public class HotelList extends HttpServlet {
 			System.out.println("pagenum = " + pagenum);
 			System.out.println("size = " + jsonArray.length());
 			
-			
+			//为了让客户端progressbar显示时间长一些，区别当前加载网络数据还是缓存数据，这里sleep
+			Thread.sleep(800);
 			out.print(jsonArray.toString());
 			out.flush();
 			out.close();
-		} catch (JSONException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
